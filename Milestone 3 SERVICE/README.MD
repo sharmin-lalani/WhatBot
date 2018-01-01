@@ -22,9 +22,10 @@ The standup parameters persist on file, and can be used to restore the config.
 * After all questions have been answered, he can choose to redo it.
 
 3. Modify standup
-* Each parameter can be individually modified after the standup has been setup.
+* Each parameter can be individually modified after the standup has been setup.  
 
-**Config** - helper functions and data for storing and modifying the standup config
+
+**Config** - helper functions and data for storing and modifying the standup config  
 * This module contains the logic for parsing and validating all the config parameters. Validation examples: verifying that the reporting channel is valid and that the bot is a member of that channel, verifying that the participants are valid slack team members, verifying that any participant entered is not a bot, fetching channel members if a channel name is entered while configuring participants, etc.
 * Config file: This is a json file that stores the config backup. If the main process ever crashes/ needs to be restarted, this file is used to restore previous config. We are validating the file against a json schema to make sure that it is in the right format and all parameters hold valid values. 
 
@@ -43,8 +44,8 @@ The standup parameters persist on file, and can be used to restore the config.
 
 ### Stories, Tasks, and Task Tracking  
 
-[Trello] (https://trello.com/b/xPCqntUz/milestone3)    
-[Worksheet] (WORKSHEET.md)
+[Trello](https://trello.com/b/xPCqntUz/milestone3)    
+[Worksheet](WORKSHEET.md)
 
 ### Screencast
 Please find the screen casts below:
