@@ -21,9 +21,9 @@ We have deployed a bot that interacts with team members, records their updates, 
 * Standup meeting report generation  
 
 ### Project Presentation
-* Presentation video: https://www.youtube.com/watch?v=owYdm_jY2CU or [Download link] (Milestone 5 REPORT/Whatbot_Demo.mp4)
-* Deployment video: https://youtu.be/eG2et5UUcn4 or [Download link] (Milestone 4 DEPLOY/WhatBot_Deployment.mp4)
-* Usecase demo video: https://youtu.be/sc4j_BLjqHs or [Download link] (Milestone 4 DEPLOY/WhatBot_UseCaseDemo.mp4)
+* Presentation video: https://www.youtube.com/watch?v=owYdm_jY2CU or [Download link] (Milestone%205%20REPORT/Whatbot_Demo.mp4)
+* Deployment video: https://youtu.be/eG2et5UUcn4 or [Download link] (Milestone%204%20DEPLOY/WhatBot_Deployment.mp4)
+* Usecase demo video: https://youtu.be/sc4j_BLjqHs or [Download link] (Milestone%204%20DEPLOY/WhatBot_UseCaseDemo.mp4)
 
 
 ## Team members
