@@ -179,15 +179,15 @@ Alternative flows:
 
 ### **Design Sketches**
 **Wireframe**
-![Wireframe](https://github.ncsu.edu/nedsouza/CSC510-Project/blob/master/DESIGN/Wireframe.png)
+![Wireframe](Wireframe.png)
 
 
  __**Storyboard**__
 
-![Storyboard](https://github.ncsu.edu/nedsouza/CSC510-Project/blob/master/DESIGN_Revised/Storyboard.jpg)
+![Storyboard](Storyboard.jpg)
 
 ### **Architecture Design**
-![architecturepattern](https://github.ncsu.edu/nedsouza/CSC510-Project/blob/master/DESIGN/ArchitecturePattern.png)
+![architecturepattern](ArchitecturePattern.png)
 
 #### Components  
 
