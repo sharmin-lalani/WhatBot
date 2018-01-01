@@ -9,7 +9,7 @@
 5. Sharmin Lalani: slalani@ncsu.edu
 
 ### Project Presentation
-* [Final Presentation](https://www.youtube.com/watch?v=owYdm_jY2CU) or [Download link] (Whatbot_Demo.mp4)
+* [Final Presentation](https://www.youtube.com/watch?v=owYdm_jY2CU) or [Download link](Whatbot_Demo.mp4)
 
 ## REPORT
 
@@ -37,37 +37,37 @@ For any stand-up, there is always an organiser, either the project manager or te
 Before the user can start configuring the standup, he needs to complete authentication to enable Google API for Google sheets and Gmail.
 
 To create a new standup, the user has to specify the duration (start and end time), a list of participants, a custom set of questions, and the reporting medium. These parameters can be individually modified later. 
-![Modify](./../DEPLOY/UAT/UseCase3-modify.jpg)
+![Modify](./../Milestone%204%20DEPLOY/UAT/UseCase3-modify.jpg)
 
   * Standup duration: The minimum duration for the standup is 15 minutes, as the snooze delay for an ongoing session is 10 minutes.  
   * Participants: It should be a space separated list of `Slack` user ids and channels. If a channel is specified, then all users from the channel would be included as participants.Specifying channels is useful when the number of participants is too large. We have built-in user detection so if a user id is not present, it is ignored. If no participants are configured, then standup will not occure until a valid participant is added.  
   * Question set: It should be newline separated strings of questions. Atleast 1 question needs to be configured. The user can choose to accept the default question set instead of providing a custom one.  
   * Reporting mediums: The reporting medium can either be `Email` or `Slack channel`.  
   
-![Setup](./../DEPLOY/UAT/UseCase1-User2.jpg)  
+![Setup](./../Milestone%204%20DEPLOY/UAT/UseCase1-User2.jpg)  
 
 * **Daily standing meeting emulation:**
 At the configured `start time`, each participant receives a message to do a standup. There are 3 options - `start`, `snooze` and `ignore`.  
-![Buttons](./../DEPLOY/UAT/UseCase2-Buttons.jpg)  
+![Buttons](./../Milestone%204%20DEPLOY/UAT/UseCase2-Buttons.jpg)  
 
 	* `Start`: The bot will ask the user questions one-by-one. The answers will be recorded by the bot. The user can also `Redo` the standup after answering all the questions, if the user wishes.  
-  ![Start](./../DEPLOY/UAT/UseCase2-StartStandup2.jpg)
+  ![Start](./../Milestone%204%20DEPLOY/UAT/UseCase2-StartStandup2.jpg)
 
 	* `Snooze`: Another option the user has is to snooze the standup for a period of 10 minutes. After that the bot will resend a reminder message to the user to complete the standup.  
-  ![Snooze](./../DEPLOY/UAT/UseCase2-Snooze1.jpg)  
+  ![Snooze](./../Milestone%204%20DEPLOY/UAT/UseCase2-Snooze1.jpg)  
 
 	* `Ignore`: A user can skip the day's standup and they won't be included in that day's report.  
-  ![Ignore](./../DEPLOY/UAT/UseCase2-Ignore.jpg)  
+  ![Ignore](./../Milestone%204%20DEPLOY/UAT/UseCase2-Ignore.jpg)  
 
 However, there is a hard deadline to complete the standup, which is the `End Time`.  At `End Time` , all the users who haven't completed the standup will get a message stating that they cannot attempt the standup as the deadline has passed.
 
 * **Standup meeting report generation:**
 At the configured `end time`, a report is generated. The report will be sent via the configured method to all participants. There are currently 2 supported modes for report delivery. viz.`Email` and `Slack Channel`. 
   * In the first mode i.e. `Email`, the report email is sent to the Slack linked email ID  of all participants. The Email is sent from the google account configured during the authentication phase. 
-  ![Email](./../DEPLOY/UAT/UseCase2-ReportEmail.jpg)  
+  ![Email](./../Milestone%204%20DEPLOY/UAT/UseCase2-ReportEmail.jpg)  
 
   * The second mode i.e `Slack Channel`, the report is published to the configured Slack channel.  
-  ![Slack Channel](./../DEPLOY/UAT/UseCase2-ReportChannel.jpg)  
+  ![Slack Channel](./../Milestone%204%20DEPLOY/UAT/UseCase2-ReportChannel.jpg)  
 
 ## 3. Our reflection on the bot development process 
 **Milestone 1 - Design**  
