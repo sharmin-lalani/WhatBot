@@ -1,0 +1,15 @@
+Hi, My name is WhatBot and I was created by Team Parkwood as a slack based standup management bot.
+I help fix these problems in a team using sprint. Daily standups for a big team take up a lot of time. If anybody is absent, or late, tracking it becomes another issue.
+All of these tasks are solved by me.
+I'm based on these technologies.
+My world is Amazon Web services, and body is made of node js.
+Google sheets is my storage, Gmail and Slack are my communication channels.
+Let me start with a simple demo of how I conduct standup with a participant, I'll prompt you at the session start time, and you can choose to start, snooze for 15 minutes, or ignore for the day.
+If you start, I'll present you the standup questions one by one and record your answer.
+At the end of the standup, I'll give you a choice to redo that standup if you feel so.
+At the time of the day's standup end, I'll report all the standups on the provided channel or email, whichever is pre-chosen.
+Let me show you how to configure a standup.
+First you have to be an authenticated user with Google A p i access, to authenticate type auth in the direct message, authenticate yourself on the given link and copy the given code back in slack. To configure a new standup, type setup in either direct message or a mention to whatbot, and enter the details, daily start time, end time, space separated list of participants, either individual names or all names from a channel. After that, standup questions separated by a new line, and ending with the keyword done. Finally, enter the reporting medium, email to all participants and creator, or a specific slack channel.
+Using show, you can show standup configuration, and using modify you can modify it. Typing modify gives a choice of configuration to change. Click on the one which you want to change and type in a new value. The report will be sent to the selected channel at standup end time, for the participants who have completed the standup.
+
+That were the features of whatbot. Thank your for your patience. Hope you enjoyed it.
