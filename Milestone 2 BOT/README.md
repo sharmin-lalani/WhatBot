@@ -130,8 +130,8 @@ There are 3 files:
 
 ### Stories, Tasks, and Task Tracking  
 
-Trello(https://trello.com/b/c9BAsFYW/milestone2)  
-Worksheet(WORKSHEET.md)
+[Trello](https://trello.com/b/c9BAsFYW/milestone2)  
+[Worksheet](WORKSHEET.md)
 
 ### Screencast
 Please find the screen casts below:
