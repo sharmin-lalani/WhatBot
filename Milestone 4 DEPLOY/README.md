@@ -64,10 +64,10 @@ Store the following environment variables in /home/vagrant/.env.
 
 ### Screencast 
 
-Deploy : https://youtu.be/eG2et5UUcn4 or [Download link] (WhatBot_Deployment.mp4)
+Deploy : https://youtu.be/eG2et5UUcn4 or [Download link](Screencast/WhatBot_Deployment.mp4)
 
 
-Usecase : https://youtu.be/sc4j_BLjqHs or [Download link] (WhatBot_UseCaseDemo.mp4)
+Usecase : https://youtu.be/sc4j_BLjqHs or [Download link](Screencast/WhatBot_UseCaseDemo.mp4)
 
 **********************************************************************************************************************
 
